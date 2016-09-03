@@ -1,0 +1,7 @@
+Rtree.egg-info/
+*.pyc
+docs/build
+build/
+dist/
+*.idx
+*.dat
