@@ -1,0 +1,4 @@
+export SPATIALINDEX_LIBRARY="$PWD/libspatial/lib/libspatialindex.so.4"
+export SPATIALINDEX_C_LIBRARY="$PWD/libspatial/lib/libspatialindex_c.so.4"
+export LD_LIBRARY_PATH="$PWD/libspatial/lib"
+

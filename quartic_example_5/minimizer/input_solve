@@ -1,0 +1,18 @@
+CONFIG
+ ParameterHomotopy: 1; % move to specific parameter values
+END;
+INPUT
+ variable_group x,y,z;
+ hom_variable_group l0,l1;
+ function f,g1,g2,g3;
+ parameter xs,ys,zs,eps; % (xs,ys) is point measuring distance from and eps is perturbation
+
+ f =   4*x^4+4*y^4+3*z^4+2-5*x^3+6*x^2*y-7*x^2+4*x*y^2-3*x-8*y^2-4*y- eps;
+
+ g1 = l0*(x-xs) + l1*(16*x^3 - 15*x^2 + 12*x*y - 14*x + 4*y^2 - 3);
+ g2 = l0*(y-ys) + l1*(6*x^2 + 8*x*y + 16*y^3 - 16*y - 4);
+ g3 = l0*(z-zs) + l1*(12*z^3);
+END;
+
+
+

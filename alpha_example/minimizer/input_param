@@ -1,0 +1,19 @@
+CONFIG
+ ParameterHomotopy: 2; % move to specific parameter values
+ MPTYPE: 1;
+ PRECISION: 96;
+ FINALTOL: 1e-11;
+ SHARPENDIGITS: 20;
+END;
+INPUT
+ variable_group x,y;
+ hom_variable_group l0,l1;
+ function f,g1,g2;
+ parameter xs,ys,eps; % (xs,ys) is point measuring distance from and eps is perturbation
+
+ f = y^2 - x^2*(x + 1) - eps; % perturb to make smooth
+ g1 = l0*(x - xs) - l1*(2*x*(x + 1) + x^2); 
+ g2 = l0*(y - ys) + 2*l1*y;
+
+END;
+

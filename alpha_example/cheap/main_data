@@ -1,0 +1,63 @@
+Number of variables: 4
+Variables:  x1 x2 l1 l2
+Rank: 3
+-------------------------
+Solution 0 (path number 0)
+Estimated condition number: 3.896980725171603e+00
+Function residual: 8.391472671209643e-17
+Latest Newton residual: 1.081033869168415e-16
+T value at final sample point: 1.562500000000000e-03
+Maximum precision utilized: 52
+T value of first precision increase: 0.000000000000000e+00
+Accuracy estimate, internal coordinates (difference of last two endpoint estimates):  9.373991106814336e-15
+Accuracy estimate, user's coordinates (after dehomogenization, if applicable):  1.537238397105027e-14
+Cycle number: 1
+4.472172372019155e-01 -6.938893903907228e-18
+5.380038674484352e-01 -1.387778780781446e-17
+1.000000000000000e+00 0.000000000000000e+00
+-3.531932551774615e-02 -1.040834085586084e-17
+Paths with the same endpoint, to the prescribed tolerance:  
+Multiplicity: 1
+-------------------------
+At tol=1.000000000000e-10, there appears to be a unique solution.
+
+
+*************** input file needed to reproduce this run ***************
+
+CONFIG
+
+UserHomotopy: 2;
+CoeffBound: 2.648670000000e+00;
+DegreeBound: 3.000000000000e+00;
+RandomSeed: 1465688925;
+
+END;
+
+INPUT
+
+variable_group x1,x2;
+hom_variable_group l1,l2;
+function g,h,k;
+pathvariable t;
+parameter s;
+constant y1,y2,fy;
+y1=0.5;
+y2=0.5;
+fy=(y1)^2-(y2)^2*((y2)+1);
+s=t;
+F=(x2)^2-(x1)^2*((x1)+1);
+g=F-s*fy;
+h=l1*x1-l1*y1-l2*(3*(x1)^2+2*(x1));
+k=l1*x2-l1*y2+(l2)*2*(x2);
+
+END;
+
+
+*************** version information ***************
+Bertini(TM) v1.5
+GMP v5.0.5, MPFR v3.1.1
+
+Authors:
+D.J. Bates, J.D. Hauenstein,
+A.J. Sommese, C.W. Wampler
+

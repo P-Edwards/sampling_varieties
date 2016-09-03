@@ -1,0 +1,21 @@
+
+(Following a Linux format where "bertini" is able to be called from the command line)
+
+1. Solve for generic parameters:
+
+>> bertini input_solve
+
+2. After running Bertini, this created the file "start_parameters" and now we need to setup the start points for the other homotopies:
+
+>> cp finite_solutions start_points
+
+3. Now, we use Matlab to setup final_parameters, run Bertini, and read in solutions.
+
+After starting Matlab, the following computes the critical points with respect to, say, (-0.3,-0.6)
+>> Pt = [-0.3;-0.6]; NumFuncs = 1; NumVars = 2; InputFile = 'input_param'; StartPoints = 'start_points'; BertiniExecutable = 'bertini'; RealTol = 1e-8; % basic setup
+>> [RealCritPts] = ComputeRealCritPoints(Pt,NumFuncs,NumVars,InputFile,StartPoints,BertiniExecutable,RealTol); % compute critical points
+
+
+
+
+

@@ -1,0 +1,29 @@
+CONFIG
+	UserHomotopy:1; 
+END; 
+INPUT
+	variable x,y,z,l0,l1;
+	function g1,g2,g3,g4,g5; 
+	pathvariable t; 
+	parameter s;
+	constant x0,y0,z0,a0,a1,eval; 
+
+	x0 = CHANGE_ME_1; 
+	y0 = CHANGE_ME_2;
+	z0 = CHANGE_ME_3;
+ 	a0 = CHANGE_ME_A1;
+ 	a1 = CHANGE_ME_A2;
+
+	eval = 144*x0^4+144*y0^4-225*(x0^2+y0^2)*z0^2+350*x0^2*y0^2+81*z0^4+x0^3+7*x0^2*y0+3*x0^2+3*x0*y0^2-4*x0-5*y0^3+5*y0^2+5*y0;
+	s = t; 
+
+ 	F = 144*x^4+144*y^4-225*(x^2+y^2)*z^2+350*x^2*y^2+81*z^4+x^3+7*x^2*y+3*x^2+3*x*y^2-4*x-5*y^3+5*y^2+5*y;
+	
+	g1 = F - s*eval;
+
+ 	g2 = l0*(x-x0) + l1*(576*x^3 + 3*x^2 + 700*x*y^2 + 14*x*y - 450*x*z^2 + 6*x + 3*y^2 - 4);
+ 	g3 = l0*(y-y0) + l1*(700*x^2*y + 7*x^2 + 6*x*y + 576*y^3 - 15*y^2 - 450*y*z^2 + 10*y + 5);
+ 	g4 = l0*(z-z0) + l1*(324*z^3 - 2*z*(225*x^2 + 225*y^2));
+ 	g5 = l0 + a1*l1 - a0;
+END;
+

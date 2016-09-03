@@ -1,0 +1,28 @@
+CONFIG
+	UserHomotopy:1; 
+END; 
+INPUT
+	variable x,y,z,l0,l1;
+	function g1,g2,g3,g4,g5; 
+	pathvariable t; 
+	parameter s;
+	constant x0,y0,z0,a0,a1,eval; 
+
+	x0 = CHANGE_ME_1; 
+	y0 = CHANGE_ME_2;
+	z0 = CHANGE_ME_3;
+ 	a0 = CHANGE_ME_A1;
+ 	a1 = CHANGE_ME_A2;
+
+	eval = 4*x0^4+4*y0^4+3*z0^4+2-5*x0^3+6*x0^2*y0-7*x0^2+4*x0*y0^2-3*x0-8*y0^2-4*y0;
+	s = t; 
+
+	F = 4*x^4+4*y^4+3*z^4+2-5*x^3+6*x^2*y-7*x^2+4*x*y^2-3*x-8*y^2-4*y;
+
+	g1 = F - s*eval;
+	g2 = l0*(x-x0) + l1*(16*x^3 - 15*x^2 + 12*x*y - 14*x + 4*y^2 - 3);
+ 	g3 = l0*(y-y0) + l1*(6*x^2 + 8*x*y + 16*y^3 - 16*y - 4);
+ 	g4 = l0*(z-z0) + l1*(12*z^3);
+ 	g5 = l0 + a1*l1 - a0;
+END;
+

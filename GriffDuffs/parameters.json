@@ -1,0 +1,7 @@
+{
+	"bounds": [-20.0,2e1,-20.0,2e1,-20.0,2e1,-20.0,2e1,-20.0,2e1,-20.0,2e1,-20.0,2e1,-20.0,2e1],
+	"density_parameter": 57.0,
+	"number_of_functions": 5,
+	"skip_cheap": 1,
+	"split_space": 1
+}

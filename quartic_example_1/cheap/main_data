@@ -1,0 +1,66 @@
+Number of variables: 5
+Variables:  x y z l0 l1
+Rank: 5
+-------------------------
+Solution 0 (path number 0)
+Estimated condition number: 1.379926567148735e+02
+Function residual: 2.32886034214135e-17
+Latest Newton residual: 1.25322372766519e-29
+T value at final sample point: 3.906250000000000e-04
+Maximum precision utilized: 96
+T value of first precision increase: 1.000000000000000e+00
+Accuracy estimate, internal coordinates (difference of last two endpoint estimates):  1.502094331378500e-14
+Accuracy estimate, user's coordinates (after dehomogenization, if applicable):  1.502094331378500e-14
+Cycle number: 1
+0.565138140300605097711465505789e0 0.000000000000000000000000000000e0
+0.384890453750495888317924427961e0 0.000000000000000000000000000000e0
+0.120257089270906979459843725841e1 0.000000000000000000000000000000e0
+0.347204345807298254539518011313e0 0.000000000000000000000000000000e0
+-0.584429326005248656074923082256e-2 0.000000000000000000000000000000e0
+Paths with the same endpoint, to the prescribed tolerance:  
+Multiplicity: 1
+-------------------------
+At tol=1.000000000000e-10, there appears to be a unique solution.
+
+
+*************** input file needed to reproduce this run ***************
+
+CONFIG
+
+UserHomotopy: 1;
+RandomSeed: 1471663492;
+
+END;
+
+INPUT
+
+variable x,y,z,l0,l1;
+function g1,g2,g3,g4,g5;
+pathvariable t;
+parameter s;
+constant x0,y0,z0,a0,a1,eval;
+x0=0.5;
+y0=0.5;
+z0=0.5;
+a0=0.144697;
+a1=34.6504422;
+eval=5*x0^4+6*y0^4+6*z0^4-7+2*x0^3+2*x0^2*y0+x0^2+3*x0*y0^2-5*x0*y0-8*x0-8*y0^3-y0^2-3*y0;
+s=t;
+F=5*x^4+6*y^4+6*z^4-7+2*x^3+2*x^2*y+x^2+3*x*y^2-5*x*y-8*x-8*y^3-y^2-3*y;
+g1=F-s*eval;
+g2=l0*(x-x0)-l1*(20*x^3+4*x*y+2*x+3*y^2-5*y-8);
+g3=l0*(y-y0)+l1*(24*y^3+2*x^2+6*x*y-5*x-24*y^2-2*y-3);
+g4=l0*(z-z0)+l1*(24*z^3);
+g5=l0+a1*l1-a0;
+
+END;
+
+
+*************** version information ***************
+Bertini(TM) v1.5
+GMP v5.0.5, MPFR v3.1.1
+
+Authors:
+D.J. Bates, J.D. Hauenstein,
+A.J. Sommese, C.W. Wampler
+

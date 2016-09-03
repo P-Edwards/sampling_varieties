@@ -1,0 +1,5 @@
+{
+	"bounds": [-1e1,1e1,-1e1,1e1,-1e1,1e1],
+	"density_parameter": 15e-1,
+	"number_of_functions": 1
+}

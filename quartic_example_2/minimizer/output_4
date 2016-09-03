@@ -1,0 +1,1024 @@
+
+Path number 44:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <3.340775684038358e-01 -6.844903055462044e-01> <2.772317317138231e-01 -1.217564917969432e-01> <-9.179848775927642e-02 5.166192179906560e-01> <9.594952497027556e-02 -1.730475193455420e-01> <6.659923847790433e-01 -6.045888986887245e-01> <-2.985227758772347e-02 8.199623315266181e-01> 
+H(Point, time):
+     <-6.605905011189458e-01 1.102572415524972e+01> <6.306516690735094e+00 -3.944834200594159e+01> <3.079626562936413e+01 4.256165100766919e+01> <5.688037147382783e+00 1.557968336698960e+01> <1.942890293094024e-16 -5.551115123125783e-17> <5.551115123125783e-17 1.665334536937735e-16> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Change Prec (success): 224 to 96 (13)
+Decrease Prec (success): 96 to 52 (24)
+numSteps = 30
+numSteps = 1
+numSteps = 1
+numSteps = 1
+numSteps = 1
+
+Ending with
+time: <0.0000000000e+00 0.0000000000e+00>
+Point: <1.279794751650523e+00 8.559273277262288e-01> <-6.653136300708709e-01 1.129618644334939e-01> <-1.039142778602141e+00 2.509676097794953e-01> <1.170750894640298e+00 -2.792261711483393e-01> <1.229332884610400e-02 -1.014272347307662e+00> <-4.133421436201665e-01 -4.494272887641652e-01> 
+De-hom point: <-3.184063025792833e-01 3.012158939034600e-01> <-4.704011524041408e-01 5.107044002744823e-01> <5.312511592353051e-01 -5.734814549579385e-01> <1.229332884610400e-02 -1.014272347307662e+00> <-4.133421436201665e-01 -4.494272887641652e-01> 
+Orig f(Point, time):
+     <6.128431095930864e-14 -4.973799150320701e-14> <8.526512829121202e-14 4.973799150320701e-14> <1.705302565824240e-13 7.105427357601002e-14> <1.989519660128281e-13 -1.421085471520200e-14> 
+||H(Point, time)||: 1.994588508241890e-13
+
+_____________________________________________________
+
+Path number 45:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <3.752144747892520e-01 -1.239100905826785e+00> <-4.423712703582378e-01 3.742095765528672e-01> <4.322357461168654e-01 -2.794013094945103e-01> <-1.412130396931091e-02 8.917830180434267e-01> <5.727003983277652e-01 -1.289005428663984e+00> <6.229039088273460e-01 -1.717999822200038e-01> 
+H(Point, time):
+     <4.424182971018718e+01 -1.283432038778388e+02> <6.413056229015243e+00 2.279390874806871e+02> <1.327083770406268e+01 -2.083110126177931e+02> <-1.900837650546496e+02 -1.485407608855971e+02> <-3.330669073875470e-16 0.000000000000000e+00> <-2.220446049250313e-16 -1.387778780781446e-17> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Increase Prec (refine): 288 to 320 (0)
+Increase Prec (refine): 320 to 352 (0)
+Increase Prec (refine): 352 to 384 (0)
+Increase Prec (refine): 384 to 416 (0)
+Increase Prec (refine): 416 to 448 (0)
+Change Prec (success): 448 to 480 (870)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 480 to 512 (1078)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 512 to 544 (1080)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 544 to 576 (1083)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 576 to 608 (1084)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 608 to 640 (1085)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 640 to 672 (1086)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 672 to 704 (1087)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 704 to 736 (1088)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 736 to 768 (1089)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 768 to 800 (1090)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 800 to 832 (1091)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 832 to 864 (1092)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 864 to 896 (1093)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 896 to 928 (1094)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 928 to 960 (1095)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 960 to 992 (1096)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 992 to 1024 (1097)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 1024 to 1056 (1098)
+numSteps = 1098
+NOTE: Power series endgame never started!
+The maximum precision (1024) was reached.
+
+Ending with
+time: <0.8000000000e0 0.0000000000e0>
+Point: <-0.192298282617541e-149 -0.968559841025290e-149> <-0.748388889162232e-1 -0.401931051682672e0> <0.191800823148374e0 0.221564809938951e0> <0.154915325832102e0 0.567868887614139e0> <0.365396741968714e0 -0.975408682198088e0> <-0.684207778581641e-447 -0.179293684852671e-446> 
+De-hom point: <0.413999725298947e149 0.492746762848012e147> <-0.257907036829517e149 0.146821845040100e149> <-0.594618810865378e149 0.418881188049862e148> <0.365396741968714e0 -0.975408682198088e0> <-0.684207778581641e-447 -0.179293684852671e-446> 
+Orig f(Point, time):
+     <-0.291125613272502e-294 0.303057449508059e-295> <0.405442712968827e-298 -0.896632227688266e-299> <-0.218370825997102e-298 0.202243222235679e-298> <-0.571154585319921e-298 0.176601607906476e-298> 
+||H(Point, time)||: 2.92698754490541e-295
+
+_____________________________________________________
+
+Path number 46:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <1.508140121517731e-01 5.493991544360410e-01> <-4.118158439974928e-01 -9.892134131894181e-01> <6.970944692859558e-02 3.893316760125262e-01> <-9.544498969363670e-02 2.053927898319580e-01> <2.435618771358592e-01 -8.115837990691639e-01> <-3.429407388959816e-01 7.444773526391775e-02> 
+H(Point, time):
+     <1.308699738232496e+01 -2.549210559799497e+02> <-2.848159935285395e+02 -5.961238782920539e+01> <1.146270285782625e+02 4.963080547937309e+01> <-2.419076290731796e+01 -3.963696306734455e+01> <-2.498001805406602e-16 -1.942890293094024e-16> <-1.110223024625157e-16 -2.081668171172169e-16> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Increase Prec (refine): 288 to 320 (0)
+Increase Prec (refine): 320 to 352 (0)
+Increase Prec (refine): 352 to 384 (0)
+Increase Prec (refine): 384 to 416 (0)
+Increase Prec (refine): 416 to 448 (0)
+Increase Prec (refine): 448 to 480 (0)
+Increase Prec (refine): 480 to 512 (0)
+Increase Prec (refine): 512 to 544 (0)
+Increase Prec (refine): 544 to 576 (0)
+Increase Prec (refine): 576 to 608 (0)
+Increase Prec (refine): 608 to 640 (0)
+Increase Prec (refine): 640 to 672 (0)
+Increase Prec (refine): 672 to 704 (0)
+Increase Prec (refine): 704 to 736 (0)
+Increase Prec (refine): 736 to 768 (0)
+Increase Prec (refine): 768 to 800 (0)
+Increase Prec (refine): 800 to 832 (0)
+Change Prec (success): 832 to 864 (1634)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 864 to 896 (2054)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 896 to 928 (2057)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 928 to 960 (2058)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 960 to 992 (2059)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 992 to 1024 (2060)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 1024 to 1056 (2061)
+numSteps = 2061
+NOTE: Power series endgame never started!
+The maximum precision (1024) was reached.
+
+Ending with
+time: <0.8000000000e0 0.0000000000e0>
+Point: <0.465149298980967e-149 -0.453762250673074e-149> <-0.911729264716508e-1 -0.351926544830049e0> <0.698114771356760e-1 0.246311655254157e0> <0.159783876489968e0 0.498440093543214e0> <0.365396741968714e0 -0.975408682198088e0> <-0.755997720765843e-447 -0.106507746694031e-446> 
+De-hom point: <0.277745543544336e149 -0.485642141935590e149> <-0.187783381784027e149 0.346346099305693e149> <-0.359608970647792e149 0.720764533869723e149> <0.365396741968714e0 -0.975408682198088e0> <-0.755997720765843e-447 -0.106507746694031e-446> 
+Orig f(Point, time):
+     <-0.180362228997012e-294 -0.142328464311478e-294> <-0.206831568489799e-299 0.158555099452479e-298> <0.120284607670570e-299 -0.111958649713477e-298> <0.167892604393894e-299 -0.229605662777427e-298> 
+||H(Point, time)||: 2.29756230387848e-295
+
+_____________________________________________________
+
+Path number 47:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <-5.814914467457328e-02 2.575194721105148e+00> <1.646301846124464e+00 -2.009350508033876e+00> <-3.834348662551036e-01 1.778806974015541e+00> <1.224805039907523e+00 -1.069015054681843e+00> <7.354107416519066e-01 -2.754636413322334e-01> <-3.119529954595823e-01 1.324639727776450e+00> 
+H(Point, time):
+     <-2.478758097549913e+03 9.425246462616857e+03> <3.713322223840019e+03 -1.666748732007459e+04> <1.833482809390757e+03 1.281247607625032e+04> <-3.219466780617048e+03 6.883258909912625e+03> <2.220446049250313e-16 -4.440892098500626e-16> <-1.110223024625157e-16 1.110223024625157e-16> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Increase Prec (refine): 288 to 320 (0)
+Change Prec (success): 320 to 128 (16)
+Change Prec (success): 128 to 96 (27)
+numSteps = 38
+numSteps = 1
+numSteps = 1
+numSteps = 1
+numSteps = 1
+
+Ending with
+time: <0.0000000000e0 0.0000000000e0>
+Point: <0.304631939404291e-2 -0.186184019093166e-1> <0.174610402722738e1 -0.176146273144546e1> <0.124229866236155e1 0.129480457983994e1> <0.164580543792826e-1 -0.547477849543299e0> <0.365396859534196e0 -0.975408650178285e0> <0.116056340019538e-6 0.174345228133050e-6> 
+De-hom point: <0.107086652630209e3 0.762623928408339e2> <-0.570984233251142e2 0.760666089175697e2> <0.287793791531284e2 -0.382487857068826e1> <0.365396859534196e0 -0.975408650178285e0> <0.116056340019538e-6 0.174345228133050e-6> 
+Orig f(Point, time):
+     <0.355698228241788e-17 0.385182221860603e-17> <-0.100957548783126e-19 0.554009137581806e-19> <-0.673333790295001e-19 -0.168006512688259e-19> <-0.228968443307126e-20 -0.687688947844246e-20> 
+||H(Point, time)||: 5.24296265113359e-18
+
+_____________________________________________________
+
+Path number 48:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <4.724774614706355e-01 -8.777813665476367e-01> <1.267763008703770e-01 2.347473723155743e-01> <-9.868863585744255e-01 6.905566473531561e-01> <5.806880549371442e-02 -8.546069799043732e-01> <3.998299480728658e-01 -7.156602432060984e-01> <-2.489925255333580e-01 3.752922125362997e-01> 
+H(Point, time):
+     <-6.076705225139107e+01 -3.437729604197835e+02> <-9.037551951162656e+01 9.339827044699773e+01> <-3.711449307920323e+02 -3.086877884204324e+02> <-2.660806427675501e+02 6.702637038121244e+01> <2.220446049250313e-16 2.220446049250313e-16> <0.000000000000000e+00 1.249000902703301e-16> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Increase Prec (refine): 288 to 320 (0)
+Increase Prec (refine): 320 to 352 (0)
+Increase Prec (refine): 352 to 384 (0)
+Increase Prec (refine): 384 to 416 (0)
+Increase Prec (refine): 416 to 448 (0)
+numSteps = 9
+numSteps = 1
+numSteps = 1
+numSteps = 1
+
+Ending with
+time: <0.0000000000e0 0.0000000000e0>
+Point: <0.788990610326928e-19 -0.475659239278605e-19> <-0.187057479457618e0 -0.190871321854926e0> <-0.512647876963076e0 -0.581087121417893e-1> <0.535478858986834e0 0.186933046160941e0> <0.365396741968714e0 -0.975408682198088e0> <-0.219685401661787e-55 -0.147146988378898e-56> 
+De-hom point: <-0.669176539718652e18 -0.282261055230066e19> <-0.443983399380136e19 -0.341313970810995e19> <0.393011202798702e19 0.473861730442169e19> <0.365396741968714e0 -0.975408682198088e0> <-0.219685401661787e-55 -0.147146988378898e-56> 
+Orig f(Point, time):
+     <-0.182940955907139e-32 0.161744552580398e-33> <-0.162569306906679e-39 0.235707092137680e-38> <0.262698760861391e-38 0.372871544782294e-38> <-0.190984901643148e-38 -0.463620416559950e-38> 
+||H(Point, time)||: 1.83654584345483e-33
+
+_____________________________________________________
+
+Path number 49:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <2.777055104357116e-01 4.694714974469411e-02> <-1.928375906647163e-01 2.144072396467507e-02> <-8.282402511571077e-02 8.483030442426438e-01> <-1.633133608136294e-01 4.607777358501299e-01> <2.412627064434933e-01 -9.055204034838831e-01> <-2.397453057604687e-01 -4.979864301404561e-02> 
+H(Point, time):
+     <3.923655717850351e+01 3.294565765892850e+00> <-1.876762349344379e+01 -3.517738115338744e+00> <-2.156742109374153e+01 5.944666405773042e+01> <1.705937469744753e+01 -2.381451306528899e+01> <3.330669073875470e-16 5.551115123125783e-17> <8.326672684688674e-17 0.000000000000000e+00> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Change Prec (success): 288 to 96 (13)
+Decrease Prec (success): 96 to 52 (24)
+numSteps = 30
+numSteps = 1
+numSteps = 1
+numSteps = 1
+numSteps = 1
+
+Ending with
+time: <0.0000000000e+00 0.0000000000e+00>
+Point: <1.279794751650523e+00 8.559273277262288e-01> <-6.653136300708709e-01 1.129618644334939e-01> <-1.039142778602141e+00 2.509676097794953e-01> <1.170750894640298e+00 -2.792261711483393e-01> <1.229332884610400e-02 -1.014272347307662e+00> <-4.133421436201665e-01 -4.494272887641652e-01> 
+De-hom point: <-3.184063025792833e-01 3.012158939034600e-01> <-4.704011524041408e-01 5.107044002744823e-01> <5.312511592353051e-01 -5.734814549579385e-01> <1.229332884610400e-02 -1.014272347307662e+00> <-4.133421436201665e-01 -4.494272887641652e-01> 
+Orig f(Point, time):
+     <6.128431095930864e-14 -4.973799150320701e-14> <8.526512829121202e-14 4.973799150320701e-14> <1.705302565824240e-13 7.105427357601002e-14> <1.989519660128281e-13 -1.421085471520200e-14> 
+||H(Point, time)||: 1.994588508241890e-13
+
+_____________________________________________________
+
+Path number 50:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <5.183201158581446e-01 -2.774822014493759e-01> <2.285182555996778e-01 4.903897174041391e-02> <-2.908449652120244e-01 2.818687310913556e-01> <7.107652527531995e-01 -6.210801876201583e-02> <9.658116360686831e-01 -9.471798668548265e-01> <7.456301727672984e-01 7.151816332545738e-01> 
+H(Point, time):
+     <1.380778303853881e+01 5.956966857950174e+00> <-1.421281355787173e+01 -4.805759944301145e+01> <7.938523360385773e+01 1.452127723621143e+01> <6.286597734857036e+01 8.320350956324549e+01> <1.110223024625157e-16 -1.110223024625157e-16> <-5.551115123125783e-17 -2.220446049250313e-16> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Increase Prec (refine): 288 to 320 (0)
+Increase Prec (refine): 320 to 352 (0)
+Increase Prec (refine): 352 to 384 (0)
+Change Prec (success): 384 to 416 (744)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 416 to 448 (917)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 448 to 480 (920)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 480 to 512 (921)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 512 to 544 (922)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 544 to 576 (923)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 576 to 608 (924)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 608 to 640 (925)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 640 to 672 (926)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 672 to 704 (927)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 704 to 736 (928)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 736 to 768 (929)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 768 to 800 (930)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 800 to 832 (931)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 832 to 864 (932)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 864 to 896 (933)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 896 to 928 (934)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 928 to 960 (935)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 960 to 992 (936)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 992 to 1024 (937)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 1024 to 1056 (938)
+numSteps = 938
+NOTE: Power series endgame never started!
+The maximum precision (1024) was reached.
+
+Ending with
+time: <0.8000000000e0 0.0000000000e0>
+Point: <-0.809402005412993e-149 -0.509698282576161e-149> <0.141448325247887e0 0.780508830009416e-1> <-0.853359440153471e0 0.742341033643682e-1> <0.867433235975433e0 -0.476653888052568e-1> <0.365396741968714e0 -0.975408682198088e0> <-0.326950213082908e-447 -0.213417522362915e-447> 
+De-hom point: <-0.168616156429536e149 0.975100418951754e147> <0.713582642934369e149 -0.541073469073893e149> <-0.740834511094841e149 0.525409455300839e149> <0.365396741968714e0 -0.975408682198088e0> <-0.326950213082908e-447 -0.213417522362915e-447> 
+Orig f(Point, time):
+     <0.721425295072587e-294 0.117382978867048e-293> <0.140838480372468e-298 0.621913733260859e-299> <-0.803820768579680e-298 0.142259326949269e-298> <0.819415728450571e-298 -0.118222522838735e-298> 
+||H(Point, time)||: 1.37779927026427e-294
+
+_____________________________________________________
+
+Path number 51:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <-1.476462869654877e-01 -5.002042703296148e-01> <-3.553803227176956e-02 -4.883934796399378e-01> <8.376339859419188e-02 -1.896576539148191e-01> <1.924364345635379e-01 3.034084588575182e-01> <5.518033472634651e-01 -1.373133470774871e+00> <6.909288911182661e-01 -3.043647455695488e-01> 
+H(Point, time):
+     <6.280741383351258e+00 5.857861221720137e+00> <3.779101551143865e+00 5.134990952142475e+01> <-8.474489109624830e+00 2.435200298082277e+01> <1.753034111343564e+01 2.382458773071005e+01> <5.551115123125783e-17 -2.775557561562891e-17> <-2.775557561562891e-16 2.775557561562891e-17> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Change Prec (success): 192 to 96 (16)
+Change Prec (success): 96 to 64 (27)
+numSteps = 38
+numSteps = 1
+numSteps = 1
+numSteps = 1
+numSteps = 1
+
+Ending with
+time: <0.0000000000e0 0.0000000000e0>
+Point: <0.304631939404291e-2 -0.186184019093166e-1> <0.174610402722738e1 -0.176146273144546e1> <0.124229866236155e1 0.129480457983994e1> <0.164580543792826e-1 -0.547477849543299e0> <0.365396859534196e0 -0.975408650178285e0> <0.116056340019538e-6 0.174345228133050e-6> 
+De-hom point: <0.107086652630209e3 0.762623928408339e2> <-0.570984233251142e2 0.760666089175697e2> <0.287793791531284e2 -0.382487857068826e1> <0.365396859534196e0 -0.975408650178285e0> <0.116056340019538e-6 0.174345228133050e-6> 
+Orig f(Point, time):
+     <0.474437182740323e-16 0.137591481049701e-15> <-0.996587202003888e-20 0.552688998083431e-19> <-0.672332401883101e-19 -0.169141891654843e-19> <-0.230287082534763e-20 -0.689537758624204e-20> 
+||H(Point, time)||: 1.45541478833753e-16
+
+_____________________________________________________
+
+Path number 52:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <2.823403827368960e-01 -4.258945430415926e-01> <-2.153864611486315e-01 9.433452282586449e-02> <-5.825041847726159e-01 2.780743987143059e-01> <1.950841611133915e-01 -5.661870454871060e-02> <3.643860662228083e-01 -9.238648028001558e-01> <-5.956684557954979e-02 6.560689423506677e-02> 
+H(Point, time):
+     <-6.854521929884052e+00 -2.757616237326310e+01> <-3.534606611786436e+00 -5.524484377751586e+00> <-8.019970363153947e+00 -1.219530898635077e+01> <-1.737866903976636e+00 -3.216749865575749e+00> <2.775557561562891e-17 5.551115123125783e-17> <-1.387778780781446e-17 -1.006139616066548e-16> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Increase Prec (refine): 288 to 320 (0)
+Increase Prec (refine): 320 to 352 (0)
+Increase Prec (refine): 352 to 384 (0)
+Change Prec (success): 384 to 416 (744)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 416 to 448 (917)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 448 to 480 (920)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 480 to 512 (921)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 512 to 544 (923)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 544 to 576 (924)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 576 to 608 (925)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 608 to 640 (926)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 640 to 672 (927)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 672 to 704 (928)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 704 to 736 (930)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 736 to 768 (931)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 768 to 800 (932)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 800 to 832 (933)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 832 to 864 (934)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 864 to 896 (935)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 896 to 928 (937)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 928 to 960 (938)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 960 to 992 (939)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 992 to 1024 (942)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 1024 to 1056 (943)
+numSteps = 943
+NOTE: Power series endgame never started!
+The maximum precision (1024) was reached.
+
+Ending with
+time: <0.8000000000e0 0.0000000000e0>
+Point: <0.415226050570758e-149 -0.197098812002026e-149> <-0.591925162689722e-1 -0.214424019059825e0> <0.241816265893609e-1 0.434002152842218e0> <0.722722722705750e-1 0.527996333919279e0> <0.365396741968714e0 -0.975408682198088e0> <0.246877228144991e-448 -0.214459620846085e-447> 
+De-hom point: <0.837091413718334e148 -0.476668182233905e149> <-0.357380704919176e149 0.875578109731936e149> <-0.350553367737471e149 0.110518759833136e150> <0.365396741968714e0 -0.975408682198088e0> <0.246877228144991e-448 -0.214459620846085e-447> 
+Orig f(Point, time):
+     <-0.192854459749041e-295 0.471799025688911e-295> <-0.341979920828920e-299 0.350211348453166e-299> <0.798183471224869e-299 -0.527066054980343e-299> <0.923546452574109e-299 -0.722675268795506e-299> 
+||H(Point, time)||: 5.09693205061731e-296
+
+_____________________________________________________
+
+Path number 53:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <-1.411305436844687e+00 8.256503155527177e-02> <1.140797094141545e+00 -6.913000931754663e-01> <8.965053003425268e-01 8.663819612735069e-01> <-2.570406765661866e-01 1.280067991332432e+00> <7.354107416519066e-01 -2.754636413322334e-01> <-3.119529954595823e-01 1.324639727776450e+00> 
+H(Point, time):
+     <7.780380383719172e+02 3.653630048725512e+02> <-9.922156356935105e+01 2.339621866157159e+03> <-1.900451875790439e+03 1.134495043435162e+03> <1.309162352892311e+03 9.969406507372679e+02> <5.551115123125783e-16 4.440892098500626e-16> <-1.110223024625157e-16 1.110223024625157e-16> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Increase Prec (refine): 288 to 320 (0)
+Increase Prec (refine): 320 to 352 (0)
+Increase Prec (refine): 352 to 384 (0)
+Increase Prec (refine): 384 to 416 (0)
+Increase Prec (refine): 416 to 448 (0)
+Increase Prec (refine): 448 to 480 (0)
+Increase Prec (refine): 480 to 512 (0)
+Increase Prec (refine): 512 to 544 (0)
+Increase Prec (refine): 544 to 576 (0)
+Increase Prec (refine): 576 to 608 (0)
+Change Prec (success): 608 to 640 (1188)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 640 to 672 (1486)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 672 to 704 (1487)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 704 to 736 (1488)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 736 to 768 (1489)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 768 to 800 (1490)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 800 to 832 (1491)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 832 to 864 (1492)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 864 to 896 (1493)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 896 to 928 (1494)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 928 to 960 (1495)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 960 to 992 (1496)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 992 to 1024 (1499)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 1024 to 1056 (1500)
+numSteps = 1500
+NOTE: Power series endgame never started!
+The maximum precision (1024) was reached.
+
+Ending with
+time: <0.8000000000e0 0.0000000000e0>
+Point: <0.387763334158885e-149 -0.160145724221878e-149> <-0.990108315212928e-1 -0.339323659541312e0> <0.516871460953482e-1 0.249425451012193e0> <0.158246726849457e0 0.494834727595156e0> <0.365396741968714e0 -0.975408682198088e0> <0.833160723493308e-449 -0.364268582792624e-447> 
+De-hom point: <0.906126344544043e148 -0.837656387181435e149> <-0.113075235768888e149 0.596541537353408e149> <-0.101606082014352e149 0.123416245386814e150> <0.365396741968714e0 -0.975408682198088e0> <0.833160723493308e-449 -0.364268582792624e-447> 
+Orig f(Point, time):
+     <-0.474113161469069e-295 -0.619805030748235e-295> <-0.491940490717799e-299 0.421813399153774e-299> <0.377549149928451e-299 -0.274830650454356e-299> <0.706921353929269e-299 -0.638278569042688e-299> 
+||H(Point, time)||: 7.80347080483432e-296
+
+_____________________________________________________
+
+Path number 70:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <2.350090693632942e-01 -3.852745159813881e-01> <-1.364918443773283e-01 -2.438493713113750e-01> <-3.044691460652275e-01 1.865004824818287e-01> <1.702895521106621e-01 -5.646189779048462e-02> <3.414549380127992e+00 -3.316619172657765e+00> <6.594824870177824e+00 4.144745413200081e-01> 
+H(Point, time):
+     <-4.504246996272561e-02 1.079173925220598e+00> <-6.010388652002524e+01 1.051768747075172e+01> <2.218965198000699e+01 7.272432795280878e+00> <4.698983682342061e+00 1.678714614478749e+01> <1.387778780781446e-16 0.000000000000000e+00> <4.440892098500626e-16 -4.440892098500626e-16> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Increase Prec (refine): 288 to 320 (0)
+Increase Prec (refine): 320 to 352 (0)
+Increase Prec (refine): 352 to 384 (0)
+Increase Prec (refine): 384 to 416 (0)
+Increase Prec (refine): 416 to 448 (0)
+Increase Prec (refine): 448 to 480 (0)
+Increase Prec (refine): 480 to 512 (0)
+Increase Prec (refine): 512 to 544 (0)
+Increase Prec (refine): 544 to 576 (0)
+Increase Prec (refine): 576 to 608 (0)
+Change Prec (success): 608 to 192 (20)
+Change Prec (success): 192 to 96 (31)
+Decrease Prec (success): 96 to 52 (42)
+numSteps = 59
+numSteps = 1
+numSteps = 1
+numSteps = 1
+numSteps = 1
+
+Ending with
+time: <0.0000000000e+00 0.0000000000e+00>
+Point: <-1.739761770689449e-01 -3.570745973516655e-01> <-1.889378898430913e-01 -2.298686180772302e-01> <-2.257353526878247e-01 -2.294736859188559e-01> <3.264960903416225e-01 3.898020469296465e-01> <8.243738289262039e-01 -6.634181976278525e-01> <2.417438237460926e-01 9.227908322597154e-01> 
+De-hom point: <7.285982877657812e-01 -1.741348882832581e-01> <7.682817670888125e-01 -2.578526409350304e-01> <-1.242257574854646e+00 3.091031043711336e-01> <8.243738289262039e-01 -6.634181976278525e-01> <2.417438237460926e-01 9.227908322597154e-01> 
+Orig f(Point, time):
+     <1.817990202823694e-15 -7.771561172376096e-16> <-1.021405182655144e-14 -3.108624468950438e-15> <-5.773159728050814e-15 4.440892098500626e-16> <-2.220446049250313e-15 2.220446049250313e-15> 
+||H(Point, time)||: 1.067662871904967e-14
+
+_____________________________________________________
+
+Path number 71:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <-8.915242240595521e-02 -3.094960472099123e-01> <-1.137527968390519e-01 2.143347522139222e-02> <-2.451864521020476e-01 2.030816042141739e-01> <1.540364264102312e-01 4.521432924903628e-01> <7.354107416519066e-01 -2.754636413322334e-01> <-3.119529954595823e-01 1.324639727776450e+00> 
+H(Point, time):
+     <-2.248859727823643e+00 -1.049141185816143e+01> <-2.097617904999984e+01 -1.669588019838326e+01> <-6.728023835940866e+01 -1.658623168088082e+01> <4.117288185628798e+01 -6.417699789982935e+01> <5.551115123125783e-17 2.775557561562891e-17> <-1.110223024625157e-16 1.110223024625157e-16> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Increase Prec (refine): 288 to 320 (0)
+Increase Prec (refine): 320 to 352 (0)
+Increase Prec (refine): 352 to 384 (0)
+Increase Prec (refine): 384 to 416 (0)
+Increase Prec (refine): 416 to 448 (0)
+Increase Prec (refine): 448 to 480 (0)
+Increase Prec (refine): 480 to 512 (0)
+Change Prec (success): 512 to 544 (996)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 544 to 576 (1241)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 576 to 608 (1242)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 608 to 640 (1243)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 640 to 672 (1245)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 672 to 704 (1246)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 704 to 736 (1247)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 736 to 768 (1249)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 768 to 800 (1250)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 800 to 832 (1251)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 832 to 864 (1252)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 864 to 896 (1253)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 896 to 928 (1254)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 928 to 960 (1255)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 960 to 992 (1256)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 992 to 1024 (1257)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 1024 to 1056 (1258)
+numSteps = 1258
+NOTE: Power series endgame never started!
+The maximum precision (1024) was reached.
+
+Ending with
+time: <0.8000000000e0 0.0000000000e0>
+Point: <-0.274755149050528e-149 -0.628933364868873e-149> <-0.781016237291793e-1 -0.312110991011750e0> <0.499631394818385e-1 0.295117064668143e0> <0.144288306213890e0 0.500375073737115e0> <0.365396741968714e0 -0.975408682198088e0> <0.870115800101757e-447 -0.208441449040943e-447> 
+De-hom point: <0.462279933526192e149 0.777700326330682e148> <-0.423177214589569e149 -0.105427669911152e149> <-0.752252122587431e149 -0.992105703665522e148> <0.365396741968714e0 -0.975408682198088e0> <0.870115800101757e-447 -0.208441449040943e-447> 
+Orig f(Point, time):
+     <0.614513291912658e-295 0.125727321865296e-294> <0.119659641977813e-298 -0.102958750647014e-298> <-0.118402993309182e-298 0.868793166674071e-299> <-0.187638151347482e-298 0.173427520257376e-298> 
+||H(Point, time)||: 1.39941506790491e-295
+
+_____________________________________________________
+
+Path number 72:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <-6.694316732743480e-02 -4.553455244283994e-01> <-3.222965186996476e-01 -3.394591960007582e-01> <-2.357814998087036e-02 5.768359562112175e-02> <-1.493281635550901e-01 3.674257122618119e-01> <-1.075236658140848e-01 -1.860985305101500e+00> <3.885014880763412e-01 -1.681343328853328e+00> 
+H(Point, time):
+     <-1.160517391085218e+01 6.212847836069098e+00> <-1.009207411298300e+02 -9.901218510943943e+01> <-9.975351458026729e+00 2.013618036640723e+01> <3.541384182527071e+01 -8.613556137951615e+01> <-1.110223024625157e-16 0.000000000000000e+00> <2.220446049250313e-16 -2.220446049250313e-16> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Change Prec (success): 288 to 96 (20)
+Decrease Prec (success): 96 to 52 (31)
+numSteps = 59
+numSteps = 1
+numSteps = 1
+numSteps = 1
+numSteps = 1
+
+Ending with
+time: <0.0000000000e+00 0.0000000000e+00>
+Point: <-1.739761770689460e-01 -3.570745973516635e-01> <-1.889378898430920e-01 -2.298686180772307e-01> <-2.257353526878249e-01 -2.294736859188569e-01> <3.264960903416234e-01 3.898020469296479e-01> <8.243738289262080e-01 -6.634181976278606e-01> <2.417438237461070e-01 9.227908322597095e-01> 
+De-hom point: <7.285982877657864e-01 -1.741348882832565e-01> <7.682817670888190e-01 -2.578526409350270e-01> <-1.242257574854656e+00 3.091031043711294e-01> <8.243738289262080e-01 -6.634181976278606e-01> <2.417438237461070e-01 9.227908322597095e-01> 
+Orig f(Point, time):
+     <1.401656568589260e-15 4.440892098500626e-16> <-5.329070518200751e-15 -1.998401444325282e-15> <0.000000000000000e+00 -1.154631945610163e-14> <7.105427357601002e-15 -4.884981308350689e-15> 
+||H(Point, time)||: 1.154631945610163e-14
+
+_____________________________________________________
+
+Path number 73:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <-6.671275504604867e-01 -4.407103558468475e-01> <5.252917681334883e-01 1.657182609499513e-01> <-2.518538642741698e-01 1.217478889168642e+00> <-5.393323181357625e-01 4.193755497010364e-01> <7.157407485392945e-01 -8.352017450026431e-01> <2.952243974391551e-01 5.775477757659352e-01> 
+H(Point, time):
+     <1.982422056346425e+02 8.648300803206903e+00> <-2.937110567690092e+00 -3.268853028543422e+02> <5.341932900709616e+02 -1.110029685205876e+02> <-2.170915030578647e+02 -1.266775595845190e+02> <6.661338147750939e-16 -3.330669073875470e-16> <1.387778780781446e-16 5.551115123125783e-17> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Increase Prec (refine): 288 to 320 (0)
+Increase Prec (refine): 320 to 352 (0)
+Increase Prec (refine): 352 to 384 (0)
+Increase Prec (refine): 384 to 416 (0)
+Increase Prec (refine): 416 to 448 (0)
+Increase Prec (refine): 448 to 480 (0)
+Change Prec (success): 480 to 512 (930)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 512 to 544 (1156)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 544 to 576 (1157)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 576 to 608 (1158)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 608 to 640 (1159)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 640 to 672 (1162)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 672 to 704 (1163)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 704 to 736 (1164)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 736 to 768 (1165)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 768 to 800 (1166)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 800 to 832 (1167)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 832 to 864 (1168)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 864 to 896 (1169)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 896 to 928 (1170)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 928 to 960 (1171)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 960 to 992 (1172)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 992 to 1024 (1173)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 1024 to 1056 (1174)
+numSteps = 1174
+NOTE: Power series endgame never started!
+The maximum precision (1024) was reached.
+
+Ending with
+time: <0.8000000000e0 0.0000000000e0>
+Point: <-0.200157848161631e-149 0.657446493498257e-149> <-0.528111960410889e-1 -0.246194386148510e0> <0.748563681509940e-1 0.392646410853626e0> <0.949630661408171e-1 0.553317408134627e0> <0.365396741968714e0 -0.975408682198088e0> <-0.208986279572755e-446 -0.121632762874246e-446> 
+De-hom point: <-0.320324715059006e149 0.177849760971608e149> <0.514845230673639e149 -0.270602525708625e149> <0.729980258102758e149 -0.366682834553403e149> <0.365396741968714e0 -0.975408682198088e0> <-0.208986279572755e-446 -0.121632762874246e-446> 
+Orig f(Point, time):
+     <-0.779688815293704e-294 -0.107038955607382e-293> <0.916256985170830e-299 0.833577956517756e-299> <-0.142382242509196e-298 -0.135627579910916e-298> <-0.196435136023061e-298 -0.194140237699897e-298> 
+||H(Point, time)||: 1.32425392219393e-294
+
+_____________________________________________________
+
+Path number 87:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <8.029344919469296e-02 -8.448712219237091e-02> <-7.877034355280384e-02 -1.508408817121539e-01> <-2.378824909195252e-01 2.837792279074097e-01> <2.587859947546159e-01 2.847569973428687e-01> <8.923574081117362e-02 -7.435464384669396e-01> <-6.196927351140662e-01 -1.187278876415618e-02> 
+H(Point, time):
+     <-6.850927207917865e+00 2.026803308202083e+00> <1.288714790140042e+01 -8.764899805005728e+00> <-2.469471217841343e+01 -1.584050626905936e+01> <1.541497219161190e+01 -1.780894099131280e+01> <-1.665334536937735e-16 -2.775557561562891e-17> <1.665334536937735e-16 0.000000000000000e+00> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Increase Prec (refine): 288 to 320 (0)
+Increase Prec (refine): 320 to 352 (0)
+Increase Prec (refine): 352 to 384 (0)
+Change Prec (success): 384 to 416 (744)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 416 to 448 (917)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 448 to 480 (920)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 480 to 512 (921)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 512 to 544 (922)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 544 to 576 (923)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 576 to 608 (924)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 608 to 640 (925)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 640 to 672 (926)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 672 to 704 (927)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 704 to 736 (928)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 736 to 768 (929)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 768 to 800 (930)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 800 to 832 (931)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 832 to 864 (932)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 864 to 896 (933)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 896 to 928 (934)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 928 to 960 (935)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 960 to 992 (936)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 992 to 1024 (938)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 1024 to 1056 (939)
+numSteps = 939
+NOTE: Power series endgame never started!
+The maximum precision (1024) was reached.
+
+Ending with
+time: <0.8000000000e0 0.0000000000e0>
+Point: <0.264905755404976e-149 -0.723057952880444e-149> <-0.157745911333093e0 -0.208778347886337e0> <-0.120114479620197e0 0.415742939718272e0> <0.328165805491388e-1 0.438111387571825e0> <0.365396741968714e0 -0.975408682198088e0> <0.126646815602256e-447 0.882624024851100e-447> 
+De-hom point: <0.184103338253702e149 -0.285614651499331e149> <-0.560593693252335e149 0.392638184159115e148> <-0.519549625666288e149 0.235732510689669e149> <0.365396741968714e0 -0.975408682198088e0> <0.126646815602256e-447 0.882624024851100e-447> 
+Orig f(Point, time):
+     <-0.103101862668231e-294 0.257790090926210e-294> <0.147986639783626e-298 0.649783052532094e-299> <-0.606100873896429e-299 -0.260326819776730e-298> <-0.149793263870589e-298 -0.226271523800144e-298> 
+||H(Point, time)||: 2.77643161387783e-295
+
+_____________________________________________________
+
+Path number 88:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <-9.087984967630761e-02 -2.620869868677124e-02> <-2.195143307249789e-01 -1.369188017625515e+00> <3.022672089065195e-01 -5.367144721880658e-01> <2.933496494073335e-01 6.512417489715433e-02> <2.974253420779977e-01 -7.830916966239340e-01> <-3.053911632586427e-01 1.722247102170911e-01> 
+H(Point, time):
+     <6.532700532797481e+02 -1.173475519154134e+02> <-4.092072212295521e+02 -4.363445013156507e+02> <-4.698584488422306e+01 -3.085800195196165e+02> <-9.100996639616980e+01 4.000194172192654e+01> <1.665334536937735e-16 1.942890293094024e-16> <-5.551115123125783e-17 4.163336342344337e-17> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Change Prec (success): 288 to 96 (20)
+Decrease Prec (success): 96 to 52 (31)
+numSteps = 59
+numSteps = 1
+numSteps = 1
+numSteps = 1
+numSteps = 1
+
+Ending with
+time: <0.0000000000e+00 0.0000000000e+00>
+Point: <-1.739761770689460e-01 -3.570745973516635e-01> <-1.889378898430920e-01 -2.298686180772307e-01> <-2.257353526878249e-01 -2.294736859188569e-01> <3.264960903416234e-01 3.898020469296479e-01> <8.243738289262080e-01 -6.634181976278606e-01> <2.417438237461070e-01 9.227908322597095e-01> 
+De-hom point: <7.285982877657864e-01 -1.741348882832565e-01> <7.682817670888190e-01 -2.578526409350270e-01> <-1.242257574854656e+00 3.091031043711294e-01> <8.243738289262080e-01 -6.634181976278606e-01> <2.417438237461070e-01 9.227908322597095e-01> 
+Orig f(Point, time):
+     <1.401656568589260e-15 4.440892098500626e-16> <-5.329070518200751e-15 -1.998401444325282e-15> <0.000000000000000e+00 -1.154631945610163e-14> <7.105427357601002e-15 -4.884981308350689e-15> 
+||H(Point, time)||: 1.154631945610163e-14
+
+_____________________________________________________
+
+Path number 89:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <2.020475261355434e-02 6.217092054127119e-01> <6.719418458938356e-02 -3.787148327282817e-01> <-1.319637983083653e-01 1.126434619077227e-01> <8.374686175234378e-01 5.368466473238944e-01> <-2.822070196243425e-03 -7.310268052315633e-01> <-7.530578670689463e-01 -9.970921682898641e-02> 
+H(Point, time):
+     <-5.376474973013882e+01 9.794302775718045e+01> <1.506218208324677e+02 -3.253969706674702e+01> <-6.412542810100682e+01 -3.175252683278275e+01> <4.745738619769239e+01 -2.837084124212614e+02> <4.440892098500626e-16 1.110223024625157e-16> <-2.220446049250313e-16 0.000000000000000e+00> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Increase Prec (refine): 288 to 320 (0)
+Increase Prec (refine): 320 to 352 (0)
+Increase Prec (refine): 352 to 384 (0)
+Increase Prec (refine): 384 to 416 (0)
+Increase Prec (refine): 416 to 448 (0)
+Change Prec (success): 448 to 480 (870)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 480 to 512 (1078)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 512 to 544 (1080)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 544 to 576 (1083)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 576 to 608 (1084)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 608 to 640 (1085)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 640 to 672 (1088)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 672 to 704 (1089)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 704 to 736 (1090)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 736 to 768 (1091)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 768 to 800 (1092)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 800 to 832 (1093)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 832 to 864 (1094)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 864 to 896 (1095)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 896 to 928 (1096)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 928 to 960 (1097)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 960 to 992 (1098)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 992 to 1024 (1099)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 1024 to 1056 (1100)
+numSteps = 1100
+NOTE: Power series endgame never started!
+The maximum precision (1024) was reached.
+
+Ending with
+time: <0.8000000000e0 0.0000000000e0>
+Point: <0.485906745561046e-149 -0.229496011721672e-149> <-0.232640085107566e0 -0.448966862264090e0> <0.290892000070484e-2 0.113356727334076e-1> <0.232646640162469e0 0.449235437750405e0> <0.365396741968714e0 -0.975408682198088e0> <0.349958474380105e-447 0.144038261571813e-447> 
+De-hom point: <-0.346474745432864e148 -0.940341585421761e149> <-0.411404322166237e147 0.213858241667073e148> <0.344450605409012e148 0.940798714864973e149> <0.365396741968714e0 -0.975408682198088e0> <0.349958474380105e-447 0.144038261571813e-447> 
+Orig f(Point, time):
+     <0.242665186224616e-295 0.112618620034917e-294> <-0.819037576339071e-299 0.128160483807249e-298> <0.251419200000713e-300 -0.246373403611967e-300> <0.819727132757442e-299 -0.128202615650592e-298> 
+||H(Point, time)||: 1.15203374536614e-295
+
+_____________________________________________________
+
+Path number 103:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <-2.797544589208756e-01 -1.363508462327601e-02> <1.124261465231107e-01 -9.177840510473498e-01> <3.108414286093003e-02 6.971110459668378e-02> <1.549909995883299e-01 8.335023174751599e-02> <3.643715073875637e-01 -1.138973688424847e+00> <1.835434257799251e-01 -2.129751402307461e-01> 
+H(Point, time):
+     <9.608487726728445e+01 5.573279767766982e+01> <5.961200220092027e+01 1.171256166900116e+02> <-1.092747095884435e+01 -7.019369595204509e+00> <1.933195567400355e+01 -2.161327332924562e+00> <-5.551115123125783e-17 -5.551115123125783e-17> <-4.718447854656915e-16 7.632783294297951e-17> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Change Prec (success): 288 to 128 (16)
+Change Prec (success): 128 to 96 (27)
+numSteps = 38
+numSteps = 1
+numSteps = 1
+numSteps = 1
+numSteps = 1
+
+Ending with
+time: <0.0000000000e0 0.0000000000e0>
+Point: <0.304631939404291e-2 -0.186184019093166e-1> <0.174610402722738e1 -0.176146273144546e1> <0.124229866236155e1 0.129480457983994e1> <0.164580543792826e-1 -0.547477849543299e0> <0.365396859534196e0 -0.975408650178285e0> <0.116056340019538e-6 0.174345228133050e-6> 
+De-hom point: <0.107086652630209e3 0.762623928408339e2> <-0.570984233251142e2 0.760666089175697e2> <0.287793791531284e2 -0.382487857068826e1> <0.365396859534196e0 -0.975408650178285e0> <0.116056340019538e-6 0.174345228133050e-6> 
+Orig f(Point, time):
+     <0.355698228241788e-17 0.385182221860603e-17> <-0.100957548783126e-19 0.554009137581806e-19> <-0.673333790295001e-19 -0.168006512688259e-19> <-0.228968443307126e-20 -0.687688947844246e-20> 
+||H(Point, time)||: 5.24296265113359e-18
+
+_____________________________________________________
+
+Path number 104:
+Starting with:
+time: <1.0000000000e+00 0.0000000000e+00>
+Point: <1.002814430532760e-01 1.444507138594724e-01> <-3.465528833559777e-01 -4.381896817235718e-01> <-4.998039181154332e-01 2.953001748954825e-01> <1.014222795657283e-01 -1.692853646874287e-02> <2.723853149333815e-01 -8.579221370098060e-01> <-2.532400408208793e-01 4.701767946691997e-02> 
+H(Point, time):
+     <5.632375223995701e+00 4.762840767714156e+00> <1.004452082485303e+01 3.171983185632206e+00> <8.480983107736023e+00 1.355295570968814e+00> <9.784010521011421e-01 -2.132608494285056e-01> <1.249000902703301e-16 -6.938893903907228e-17> <2.775557561562891e-17 -5.551115123125783e-17> 
+
+
+Increase Prec (refine): 52 to 64 (0)
+Increase Prec (refine): 64 to 96 (0)
+Increase Prec (refine): 96 to 128 (0)
+Increase Prec (refine): 128 to 160 (0)
+Increase Prec (refine): 160 to 192 (0)
+Increase Prec (refine): 192 to 224 (0)
+Increase Prec (refine): 224 to 256 (0)
+Increase Prec (refine): 256 to 288 (0)
+Increase Prec (refine): 288 to 320 (0)
+Increase Prec (refine): 320 to 352 (0)
+Change Prec (success): 352 to 384 (676)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 384 to 416 (833)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 416 to 448 (834)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 448 to 480 (835)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 480 to 512 (836)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 512 to 544 (837)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 544 to 576 (838)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 576 to 608 (839)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 608 to 640 (840)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 640 to 672 (841)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 672 to 704 (842)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 704 to 736 (843)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 736 to 768 (844)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 768 to 800 (845)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 800 to 832 (846)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 832 to 864 (847)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 864 to 896 (848)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 896 to 928 (849)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 928 to 960 (850)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 960 to 992 (851)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 992 to 1024 (852)
+NOTE: Criterion C has been violated.
+Increase Prec (newton/criterion): 1024 to 1056 (853)
+numSteps = 853
+NOTE: Power series endgame never started!
+The maximum precision (1024) was reached.
+
+Ending with
+time: <0.8000000000e0 0.0000000000e0>
+Point: <0.358611909298530e-149 -0.675722371084617e-149> <-0.227483124226089e0 -0.307449665909808e0> <-0.197403405121973e0 0.231402045975564e-1> <0.318436440109810e0 0.380848963615887e0> <0.365396741968714e0 -0.975408682198088e0> <-0.304320425466319e-447 0.145086983547870e-446> 
+De-hom point: <0.215604519066277e149 -0.451075005808368e149> <-0.147688123280501e149 -0.213757441565522e149> <-0.244621114517955e149 0.601075977978784e149> <0.365396741968714e0 -0.975408682198088e0> <-0.304320425466319e-447 0.145086983547870e-446> 
+Orig f(Point, time):
+     <-0.591766115814430e-295 -0.344264793652970e-295> <0.178718573210129e-298 0.149692370814815e-298> <0.113670985103417e-298 -0.419103925003636e-299> <-0.243100006892372e-298 -0.180194787185107e-298> 
+||H(Point, time)||: 6.84620613168359e-296
+
+_____________________________________________________

@@ -1,0 +1,24 @@
+CONFIG
+	UserHomotopy:1; 
+END; 
+INPUT
+	variable x1,x2,l0,l1;
+	function g,h,k,g2; 
+	pathvariable t; 
+	parameter s;
+	constant y1,y2,a0,a1,fy; 
+
+	y1 = CHANGE_ME_1; 
+	y2 = CHANGE_ME_2;
+	a0 = CHANGE_ME_A1;
+	a1 = CHANGE_ME_A2;
+	fy = (y1)^2-(y2)^2*((y2)+1);
+	s = t; 
+
+	F = (x2)^2-(x1)^2*((x1)+1);
+
+	g = F - s*fy;
+	h = l0*x1 - l0*y1 - l1*(3*(x1)^2 + 2*(x1));
+	k  = l0*x2 - l0*y2 + (l1)*2*(x2);
+	g2 = l0 + a1*l1 - a0;
+END;

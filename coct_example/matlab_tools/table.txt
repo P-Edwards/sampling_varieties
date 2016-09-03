@@ -1,0 +1,4 @@
+w = 2.328676;
+q = 6.211852;
+syms a b c d e f g h j k l m;
+table = [0 w q a b c q w;w 0 w q d e f q;q w 0 w q g h j; a q w 0 w q k l;b d q w 0 w q m;c e g q w 0 w q;q f h k q w 0 w;w q j l m q w 0];

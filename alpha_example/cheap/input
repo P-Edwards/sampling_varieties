@@ -1,0 +1,23 @@
+CONFIG
+	UserHomotopy:2; 
+
+END; 
+INPUT
+	variable_group x1,x2;
+	hom_variable_group l1,l2;
+	function g,h,k; 
+	pathvariable t; 
+	parameter s;
+	constant y1,y2,fy; 
+
+	y1 = 0.5; 
+	y2 = 0.5;
+	fy = (y1)^2-(y2)^2*((y2)+1);
+	s = t; 
+
+	F = (x2)^2-(x1)^2*((x1)+1);
+
+	g = F - s*fy;
+	h = l1*x1 - l1*y1 - l2*(3*(x1)^2 + 2*(x1));
+	k  = l1*x2 - l1*y2 + (l2)*2*(x2);
+END;

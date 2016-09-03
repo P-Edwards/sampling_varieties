@@ -1,0 +1,11 @@
+variable_group x,y,z;
+hom_variable_group l0,l1;
+function f,g1,g2,g3;
+parameter xs,ys,zs,eps;
+f=5*x^4+6*y^4+6*z^4-7+2*x^3+2*x^2*y+x^2+3*x*y^2-5*x*y-8*x-8*y^3-y^2-3*y-eps;
+g1=l0*(x-xs)+l1*(20*x^3+6*x^2+x*(4*y+2)+3*y^2-5*y-8);
+g2=l0*(y-ys)+l1*(2*x^2+x*(6*y-5)+24*y^3-24*y^2-2*y-3);
+g3=l0*(z-zs)+l1*(24*z^3);
+
+END;
+
