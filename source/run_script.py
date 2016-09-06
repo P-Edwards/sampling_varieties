@@ -23,6 +23,11 @@ if 'skip_cheap' not in parameters:
 else: 
 	skip_cheap_segment = True
 
+if 'previous_points' not in parameters: 
+	previous_points = False
+else:
+	previous_points = np.loadtxt(os.path.join(template_stem,parameters['previous_points']))
+
 overall_bounds = parameters["bounds"]
 overall_bounds = [float(entry) for entry in overall_bounds]
 dimensionality = len(overall_bounds)/2
@@ -48,9 +53,13 @@ density_parameter_name = ""
 rounding_precision = 0.0
 old_density_parameter = 0 
 
-r_out = list() 
-p_out = list()
+
+if previous_points!=False: 
+	p_out = previous_points 
+else: 
+	p_out = list()
 pr_out = list() 
+r_out = list()
 
 def single_run(): 
 	global r_out,p_out,pr_out,output_path,density_parameter_name,density_parameter,old_density_parameter
@@ -63,7 +72,6 @@ def single_run():
 		density_parameter_name = str(density_parameter_start)+"e"+str(density_parameter_mod-2)
 	else: 
 		density_parameter_name = str(density_parameter_start)+"e+"+str(density_parameter_mod-2)
-	density_parameter_name += "_2"
 	sample_name = density_parameter_name + '_sample.txt'
 	output_path = os.path.join(template_stem,sample_name)
 
@@ -116,7 +124,7 @@ def run_dipha():
 		call(args=dipha_call_string,cwd=template_stem,shell=True)
 
 		# Save persistence diagram image 
-		diagram_output_path = os.path.join(template_stem,'%s_diagram.jpeg' % density_parameter_name)
+		diagram_output_path = os.path.join(template_stem,'results/%s_diagram.jpeg' % density_parameter_name)
 		call(args=[matlab_path,"-nodisplay -nosplash -nodesktop -r","\"cd %s;plot_persistence_diagram('%s');saveas(gcf,'%s');exit;\"" % (dipha_script_path,dipha_output_path,diagram_output_path)],
 			stdout=devnull.fileno(),cwd=template_stem)
 

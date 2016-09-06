@@ -37,7 +37,7 @@ def core_algorithm(local_template_location,global_template_location,mpi_executab
 	manager = multiprocessing.Manager() 
 	return_queue = manager.Queue()
 	
-	heuristic_switch = False
+	heuristic_switch = True
 
 
 	side_length = 2*density_parameter/sqrt(dimensionality)

@@ -123,15 +123,16 @@ class Search_Space(object):
 		self.id_counter = 0
 		self.tree.interleaved = False
 		self.bad_boxes = list([search_box(space_bounds.flatten())])
-		if points is not None: 
-			self.bad_boxes = [search_box(self._createRadiusBox(point,old_distance)) for point in points]
 		self.global_bounds = global_bounds
 		self.max_length_limit = _maxLengthOfBox(self._createRadiusBox([0*i for i in xrange(0,dimension)],self.epsilon))/2.5e3
 		self.current_max_length = _maxLengthOfBox(space_bounds)
 		self.old_box = list([])
 		self.skip_list = list()
 		self.skip_radius_multiplier = pow(2.5,dimension)
-
+		if points is not None: 
+			self.bad_boxes = [search_box(self._createRadiusBox(point,old_distance)) for point in points]
+			for point in points: 
+				self.addPoint(point,False,True)
 
 	def _createRadiusBox(self,point,radius): 
 		radius = radius - self.delta
@@ -193,7 +194,7 @@ class Search_Space(object):
 		self.tree.insert(self.id_counter,box,label)
 		self.id_counter += 1
 
-		modulus = 30
+		modulus = 30 + int(.0001*len(self.bad_boxes))
 		if (self.id_counter % modulus == 0): 
 			self.bad_boxes.sort(key=lambda box: box.measure)
 			self.current_max_length = self.bad_boxes[-1].measure
